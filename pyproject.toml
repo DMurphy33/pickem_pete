@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "pickem-pete"
+version = "0.1.0"
+description = "Tool for tracking betting picks"
+authors = ["Dennis Murphy <dennismurphyjr33@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+pandas = "^2.2.2"
+discord = "^2.3.2"
+python-dotenv = "^1.0.1"
+
+
+[tool.poetry.group.dev.dependencies]
+ruff = "^0.6.3"
+pre-commit = "^3.8.0"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
